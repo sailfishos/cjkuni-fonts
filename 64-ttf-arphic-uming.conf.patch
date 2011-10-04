@@ -1,0 +1,32 @@
+--- uming.orig/64-ttf-arphic-uming.conf	2008-02-19 14:25:21.000000000 +0800
++++ uming/64-ttf-arphic-uming.conf	2009-10-16 16:19:29.000000000 +0800
+@@ -3,23 +3,23 @@
+ <fontconfig>
+ 	<alias>
+ 		<family>serif</family>
+-		<prefer>
++		<default>
+ 			<family>AR PL UMing HK</family>
+ 			<family>AR PL UMing CN</family>
+-		</prefer>
++		</default>
+ 	</alias>
+ 	<alias>
+ 		<family>sans-serif</family>
+-		<prefer>
++		<default>
+ 			<family>AR PL UMing HK</family>
+ 			<family>AR PL UMing CN</family>
+-		</prefer>
++		</default>
+ 	</alias>
+ 	<alias>
+ 		<family>monospace</family>
+-		<prefer>
++		<default>
+ 			<family>AR PL UMing HK</family>
+ 			<family>AR PL UMing CN</family>
+-		</prefer>
++		</default>
+ 	</alias>
+ </fontconfig>

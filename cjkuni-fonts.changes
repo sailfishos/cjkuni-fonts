@@ -1,0 +1,25 @@
+* Tue Jun 08 2010 Ling Yue <ling.yue@intel.com> - 0.2.20080216.1
+- Fixed BMC#2177 spec file issue
+
+* Fri May 07 2010 Anas Nashif <anas.nashif@intel.com> - 0.2.20080216.1
+- Fixed rpmlint errors
+
+* Fri Jan 15 2010 Anas Nashif <anas.nashif@intel.com> - 0.2.20080216.1
+- Remove installation and developer docs
+
+* Fri Oct 16 2009 Jian-feng Ding <jian-feng.ding@intel.com> 0.2.20080216.1
+- Dropped patch2 to disable system wide zh fonts match, and new patch for
+  lower priority of UMing font in zh font match for sans-serif family
+  Fixed MB#4368
+
+* Mon Sep 28 2009 Jian-feng Ding <jian-feng.ding@intel.com> 0.2.20080216.1
+- Add many "Proivdes" virtual pkg to spec for "scalable-font-zh-??"
+
+* Fri Mar 20 2009 Ding Jian-feng <jian-feng.ding@intel.com> 0.2.20080216.1
+- Revert the last commit, because it will induce another problem:
+  System wide default "sans-serif" font will select this cjk font, but it
+  is ugly to display non-cjk text sometime.
+
+* Thu Feb 26 2009 Vivian Zhang <vivian.zhang@intel.com> 0.2.20080216.1
+- Update patch2 to fix #1023: chinese font size is not uniform
+
